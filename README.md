@@ -11,7 +11,7 @@ PookieEventBus.getInstance().publish(key,object);
 ### subscribe Event Bus
 ```PookieEventBus.getInstance().subscribe(receiver, key);```
 
-
+                     like
 
  
 ```PookieEventBus.getInstance().subscribe(this, key);```
