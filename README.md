@@ -3,8 +3,11 @@
 This is a single file Class library for android. It has no dependencies. Just copy paste the file and use it.
 for using this Event Bus you need to follow simple two steps:
 
-## first:
-  
+
+### publish Event to Event Bus
+``` 
+PookieEventBus.getInstance().publish(key,object);
+```  
 ### subscribe Event Bus
 ```PookieEventBus.getInstance().subscribe(receiver, key);```
 
@@ -21,7 +24,4 @@ for using this Event Bus you need to follow simple two steps:
     }
 ```
 
-### publish Event to Event Bus
-
-``` PookieEventBus.getInstance().publish(key,object);```
 
